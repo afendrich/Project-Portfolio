@@ -18,6 +18,7 @@ body {
 }
 @media screen and (max-width: 425px) {
   .header-container { display: flex;
+                      flex-wrap: wrap;
                       font-size: 0.75em;
                       align-items: center; }
   .udacity-container { align-items: flex-end; }
@@ -33,26 +34,51 @@ body {
 }
 @media screen and (min-width: 426px) {
   .header-container { display: flex;
+                      flex-wrap: wrap;
                       padding-left: 25px;
                       padding-right: 25px;
                       display: flex;
                       font-size: 1em;
                       align-items: center; }
   .header-right { justify-content: center; }
-
   .udacity-logo {max-width: 75px; }
   .computer-container { padding-top: 25px; }
   .computer-image { object-fit: cover;
                     width:100%;
                     height: 300px; }
-  .feature-image { flex-basis: 10%; }
+
   .projects-container { display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center; }
+  .project1, .project2, .project3 { height: 200px;
+                                    width: 250px;
+                                    border-style: solid; }
+  .featured-work-text { font-size: 2em;
+                         text-decoration: underline;}
+  .project { font-size: 1em;
+             line-height: 20px;}
+}
+@media screen and (min-width: 1339px) {
+  .header-container { display: flex;
+                      flex-wrap: wrap;
+                      padding-left: 25px;
+                      padding-right: 25px;
+                      display: flex;
+                      font-size: 1em;
+                      align-items: center; }
+  .header-right { justify-content: center; }
+  .udacity-logo {max-width: 75px; }
+  .computer-container { padding-top: 25px; }
+  .computer-image { object-fit: cover;
+                    width:100%;
+                    height: 300px; }
+
+  .projects-container { display: flex;
+                        flex-wrap: nowrap;
                         justify-content: center; }
   .project1, .project2, .project3 { height: 300px;
-                                    width: 400px;
-                                    border-style: solid;
-                                   }
-
+                                    width: 365px;
+                                    border-style: solid; }
   .featured-work-text { font-size: 2em;
                          text-decoration: underline;}
   .project { font-size: 1.5em;
