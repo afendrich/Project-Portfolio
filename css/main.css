@@ -1,6 +1,9 @@
 body {
     font-family: 'Aldrich';
 }
+.project1, .project2, .project3 {
+  cursor: pointer;
+}
 .header-container {
   display: flex;
   border-bottom: 5px solid #7d97ad;

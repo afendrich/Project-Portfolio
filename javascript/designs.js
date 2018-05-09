@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+//lets user touch/click Project image taking them to the project codepen
   $('.project1').on('click', function(e) {
     e.preventDefault();
     console.log('project1 clicked');
@@ -18,5 +18,4 @@ $(document).ready(function() {
     window.location="https://codepen.io/alan1234/full/NYJoeV/"
     return false;
   });
-
 });
