@@ -33,22 +33,30 @@ body {
 }
 @media screen and (min-width: 426px) {
   .header-container { display: flex;
+                      padding-left: 25px;
+                      padding-right: 25px;
+                      display: flex;
                       font-size: 1em;
                       align-items: center; }
-  .udacity-container { align-items: flex-end; }
-  .udacity-logo { max-width: 75px; }
+  .header-right { justify-content: center; }
+
+  .udacity-logo {max-width: 75px; }
   .computer-container { padding-top: 25px; }
   .computer-image { object-fit: cover;
                     width:100%;
                     height: 300px; }
-
+  .feature-image { flex-basis: 10%; }
   .projects-container { display: flex;
-                        justify-content: center;
-                        flex-wrap: wrap; }
-  .project1, .project2, .project3 { width: 275px;
-                                    border-style: solid; }
+                        justify-content: center; }
+  .project1, .project2, .project3 { height: 300px;
+                                    width: 400px;
+                                    border-style: solid;
+                                   }
+
   .featured-work-text { font-size: 2em;
                          text-decoration: underline;}
+  .project { font-size: 1.5em;
+             line-height: 50px;}
 }
 @media screen and (min-width: 2560px) {
   body { padding: 50px;
@@ -59,11 +67,18 @@ body {
                     height: 750px; }
   .projects-container { display: flex;
                         justify-content: space-around; }
-  .project1, .project2, .project3 { width: 650px;
+  .project1, .project2, .project3 { height: 500px;
+                                    width: 675px;
                                     border-style: solid; }
   .udacity-logo { max-width: 200px; }
   .name {font-size: 4em;}
   .title {font-size: 2.25em;}
   .featured-work-text { font-size: 4em; }
-  .project { font-size: 2.25em; }
+  .project { font-size: 2.25em;
+             line-height: 100px;}
 }
+/*
+
+//  .udacity-container { align-items: flex-end; }
+
+*/
