@@ -1,0 +1,66 @@
+body {
+    font-family: 'Aldrich';
+}
+.header-container {
+  display: flex;
+  border-bottom: 5px solid #7d97ad;
+  justify-content: space-between;
+}
+.name, .title, .project {
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+.featured-work-text {
+  color: #7d97ad;
+}
+@media screen and (max-width: 425px) {
+  .header-container { display: flex;
+                      font-size: 0.75em;
+                      align-items: center; }
+  .udacity-container { align-items: flex-end; }
+  .udacity-logo { max-width: 40px; }
+  .computer-container { padding-top: 25px; }
+  .computer-image { width:100%; }
+  .featured-work-container { display: flex;
+                             flex-direction: column;
+                             justify-content: center; }
+  .project1, .project2, .project3 { width: 100%;
+                                    border-style: solid;}
+  .featured-work-text { font-size: 1.5em; }
+}
+@media screen and (min-width: 426px) {
+  .header-container { display: flex;
+                      font-size: 1.5em;
+                      align-items: center; }
+  .udacity-container { align-items: flex-end; }
+  .udacity-logo { max-width: 100px; }
+  .computer-container { padding-top: 25px; }
+  .computer-image { object-fit: cover;
+                    width:100%;
+                    height: 300px; }
+
+  .projects-container { display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap; }
+  .project1, .project2, .project3 { width: 275px;
+                                    border-style: solid; }
+  .featured-work-text { font-size: 2em;
+                         text-decoration: underline;}
+}
+@media screen and (min-width: 2560px) {
+  body { padding: 50px;
+         padding-top: 25px;}
+  .header-right { text-align: right; }
+  .computer-image { object-fit: cover;
+                    width:100%;
+                    height: 750px; }
+  .projects-container { display: flex;
+                        justify-content: space-around; }
+  .project1, .project2, .project3 { width: 650px;
+                                    border-style: solid; }
+  .udacity-logo { max-width: 200px; }
+  .name {font-size: 4em;}
+  .title {font-size: 2.25em;}
+  .featured-work-text { font-size: 4em; }
+  .project { font-size: 2.25em; }
+}
