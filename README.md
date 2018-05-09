@@ -1,8 +1,9 @@
 # README
 
-This is my first attempt at a responsive website.
+This is my first attempt at a responsive website for Project 1.
 
-## Notes:
-1. I am new at Github.  
+## Notes & To-Do List:
+1. This is my first attempt at using Github to host a website.  
 2. I need to incorporate responsive images into my design.  
-3. There are a few minor formatting issues I have to work through with the largest screen sizes.
+3. In the "Featured Work" section, I need to get the flexbox formatting right when viewing on the largest screens.  Currently the images do not line up, and its not athestically pleasing.  
+4. References to image owners is needed.
