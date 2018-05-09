@@ -30,10 +30,10 @@ body {
 }
 @media screen and (min-width: 426px) {
   .header-container { display: flex;
-                      font-size: 1.5em;
+                      font-size: 1em;
                       align-items: center; }
   .udacity-container { align-items: flex-end; }
-  .udacity-logo { max-width: 100px; }
+  .udacity-logo { max-width: 75px; }
   .computer-container { padding-top: 25px; }
   .computer-image { object-fit: cover;
                     width:100%;
