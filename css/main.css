@@ -32,29 +32,36 @@ body {
     font-size: 0.75em;
     align-items: center;
   }
+
   .udacity-container {
     align-items: flex-end;
   }
+
   .udacity-logo {
     max-width: 40px;
   }
+
   .computer-container {
     padding-top: 25px;
   }
+
   .computer-image {
     width:100%;
   }
+
   .featured-work-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .project-1,
   .project-2,
   .project-3 {
     width: 100%;
     border-style: solid;
   }
+
   .featured-work-text {
     font-size: 1.5em;
   }
@@ -70,15 +77,19 @@ body {
     font-size: 1em;
     align-items: center;
   }
+
   .header-right {
     justify-content: center;
   }
+
   .udacity-logo {
     max-width: 75px;
   }
+
   .computer-container {
     padding-top: 25px;
   }
+
   .computer-image {
     object-fit: cover;
     width:100%;
@@ -90,6 +101,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .project-1,
   .project-2,
   .project-3 {
@@ -97,10 +109,12 @@ body {
     width: 250px;
     border-style: solid;
   }
+
   .featured-work-text {
     font-size: 2em;
     text-decoration: underline;
   }
+
   .project-caption {
     font-size: 1em;
     line-height: 20px;
@@ -117,25 +131,31 @@ body {
     font-size: 1em;
     align-items: center;
   }
+
   .header-right {
     justify-content: center;
   }
+
   .udacity-logo {
     max-width: 75px;
   }
+
   .computer-container {
     padding-top: 25px;
   }
+
   .computer-image {
     object-fit: cover;
     width:100%;
     height: 300px;
   }
+
   .projects-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
   }
+
   .project-1,
   .project-2,
   .project-3 {
@@ -143,10 +163,12 @@ body {
     width: 365px;
     border-style: solid;
   }
+
   .featured-work-text {
     font-size: 2em;
     text-decoration: underline;
   }
+
   .project-caption {
     font-size: 1.5em;
     line-height: 50px;
@@ -158,18 +180,22 @@ body {
     padding: 50px;
     padding-top: 25px;
   }
+
   .header-right {
     text-align: right;
   }
+
   .computer-image {
     object-fit: cover;
     width:100%;
       height: 750px;
   }
+
   .projects-container {
     display: flex;
     justify-content: space-around;
   }
+
   .project-1,
   .project-2,
   .project-3 {
@@ -177,18 +203,23 @@ body {
     width: 675px;
     border-style: solid;
   }
+
   .udacity-logo {
     max-width: 200px;
   }
+
   .name {
     font-size: 4em;
   }
+
   .title {
     font-size: 2.25em;
   }
+
   .featured-work-text {
     font-size: 4em;
   }
+  
   .project-caption {
     font-size: 2.25em;
     line-height: 100px;
