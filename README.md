@@ -5,6 +5,9 @@ This is my first attempt at a responsive website for Project 1.  This is also my
 ## Notes & To-Do List:
 1. Responsive images are a work in progess, and will be updated after I figure out Grunt.
 
+##References:
+Udacity Logo -  http://logo.kenh.net/logo/udacity.svg.html
+Computer Image - By: Goumbik https://pixabay.com/en/business-technology-notebook-laptop-2717063/
 
 ## Portfolio Site Link:
 https://afendrich.github.io/Project-Portfolio/
