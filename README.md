@@ -10,4 +10,4 @@ This is my first attempt at a responsive website for Project 1.  This is also my
 2. Computer Image - By: Goumbik https://pixabay.com/en/business-technology-notebook-laptop-2717063/
 
 ## Portfolio Site Link:
-https://afendrich.github.io/Project-2---Memory-Game/
+https://afendrich.github.io/Project-Portfolio/
